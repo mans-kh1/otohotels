@@ -1,0 +1,133 @@
+.main_section_two{
+    .main_is{
+        width: 1214px;
+        height: 476px;
+        display: flex;
+        margin-top: 70px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+        .main_is_card{
+            display: flex;
+            flex-direction: row;
+            column-gap: 30px;
+            .main_is_card_four{
+                p{
+                    width: 144px;
+                }
+            }
+            .main_is_card_one{
+                position: relative;
+            }
+            .background_border_one{
+                width: 276px;
+                height: 260px;
+                transform: rotate(12deg);
+                flex-shrink: 0;
+                border-radius: 10px;
+                border: 2px solid #00327F;
+                box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.15);
+                position: absolute;
+                z-index: -2;
+            }
+            .main_is_card_one_item{
+                position: absolute;
+                z-index: 1;
+                p{
+                    width: 213px;
+                }
+            }
+            .main_is_card_three{
+                position: relative;
+            }
+            .background_border_three{
+                width: 276px;
+                height: 260px;
+                transform: rotate(-12deg);
+                flex-shrink: 0;
+                border-radius: 10px;
+                border: 2px solid #00327F;
+                box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.15);
+                position: absolute;
+                z-index: -2;
+            }
+            .main_is_card_three_item{
+                position: absolute;
+                z-index: 1;
+                p{
+                    width: 213px;
+                }
+            }
+            >div{
+                width: 276px;
+                height: 260px;
+                flex-shrink: 0;
+                border-radius: 10px;
+                border: 5px solid #FFF;
+                background: #EFF7FF;
+                box-shadow: 2px 4px 20px 0px rgba(0, 50, 127, 0.15);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                row-gap: 24px;
+                border-radius: 10px;
+                border: 5px solid #FFF;
+                background: #EFF7FF;
+                box-shadow: 2px 4px 20px 0px rgba(0, 50, 127, 0.15);
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                img{
+                    width: 74px;
+                    height: 67px;
+                    flex-shrink: 0;
+                }
+                p{
+                    color: #00327F;
+                    text-align: center;
+                    font-variant-numeric: lining-nums proportional-nums;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 30px; /* 150% */
+                    align-items: center;
+                }
+            }
+        }
+        >p{
+            display: flex;
+            flex-direction: column;
+            width: 632px;
+            text-align: center;
+            margin-bottom: 72px;
+            span:nth-child(1){
+                color: #00327F;
+                text-align: center;
+                font-variant-numeric: lining-nums proportional-nums;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                span{
+                    color: #00327F;
+                    font-variant-numeric: lining-nums proportional-nums;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+            span:nth-child(2){
+                color: #1E1E1E;
+                font-variant-numeric: lining-nums proportional-nums;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    }
+}

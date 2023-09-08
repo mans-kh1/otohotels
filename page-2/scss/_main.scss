@@ -1,0 +1,80 @@
+.navigation_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .main-navigation{
+        width: 990px;
+        height: 77px;
+        border-radius: 10px;
+        background: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 2px solid #00327F;
+        margin-top: 43px;
+    
+        .navigation_input{
+            color: #666;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-left: 21px;
+            border: 0;
+
+        }
+        .input-max{
+            width: 380px;
+            height: 60px;
+        }
+        .input-mid{
+            width: 102px;
+            height: 60px;
+        }
+        .input-border{
+            border-right:1px solid #D9D9D9;
+            outline: none;
+        }
+        .media-none{
+            outline: none;
+        }
+        .navigation_input::placeholder{
+            color: #666;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            border: 0;
+        }
+    }
+    .navigation-search_block{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        .search_button{
+            width: 197px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #FFF;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px; /* 144.444% */
+            letter-spacing: 0.36px;
+            border-radius: 10px;
+            background: #00327F;
+            margin-right: 5px;
+            border: none;
+        }
+    }
+}

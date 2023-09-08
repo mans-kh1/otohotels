@@ -1,0 +1,166 @@
+.cont-cards{
+    max-width: 1920px;
+    max-height: 1248px;
+    background-color: #ECECEC;
+    padding: 27px 0 95px 0;
+    margin-top: 50px;
+    .cards{
+        max-width: 990px;
+        margin: 0 auto;
+        h2{
+            color: #00327F;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        .cards-block{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+            .card{
+                max-width: 990px;
+                max-height: 240px;
+                background-color: #fff;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                
+                .card-left{
+                    display: flex;
+                    align-items: center;
+
+                    .card-left-slider{
+                        max-width: 276px;
+                        max-height: 240px;
+                        border-radius: 10px;
+                        overflow: hidden;
+                    }
+                    .card-left-info{
+                        margin-left: 35px;
+                        margin-bottom: 10px;
+
+                        h3{
+                            color: #00327F;
+                            font-family: Montserrat;
+                            font-size: 18px;
+                            font-weight: 600;
+                            margin-bottom: 15px;
+
+                           
+                        } 
+                        .left-card-info-one{
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 15px;
+                                
+                            .geo-text{
+                                color: #666;
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 500;
+                                margin-left: 4px;
+                            }
+                        }
+                        .left-card-info-two{
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 21px;
+                                
+                            .fortwo-text{
+                                color: #666;
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 500;
+                                margin-left: 4px;
+                            }
+                        }
+                        .left-card-info-three{
+                            max-width: 267px;
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 10px;
+
+                            span{
+                                color: #1E1E1E;
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 500;
+                            }
+                        }
+                        .left-card-info-foure{
+                            margin-top: 20px;
+
+                            a{
+                                text-decoration: none;
+                                color: #666;
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 500;
+
+                            }
+                        }
+                        
+                    }
+                    hr{
+                        max-height: 2px;
+                        max-width: 183px;
+                        background-color: #d9d9d9;
+                        border: none;
+                        transform: rotate(-90deg);
+                    }
+                }
+                .card-right{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-left: 141px;
+
+                    .card-right-one{
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 47px;
+
+                        span{
+                            color: #000;
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-weight: 500;
+                            margin-left: 10px;
+                        }
+                    }
+                    .card-right-two{
+                        span{
+                            color: #00327F;
+                            font-family: Montserrat;
+                            font-size: 24px;
+                            font-weight: 600;
+                        }
+                    }
+                    .card-right-three{
+                        .btn{
+                            border: none;
+                            border-radius: 10px;
+                            background: #00327F;
+                            color: #fff;
+                            display: flex;
+                            width: 157px;
+                            height: 47px;
+                            justify-content: center;
+                            align-items: center;
+                            margin-top: 15px;
+                        }
+                    }
+                    .card-right-foure{
+                        color: #1E1E1E;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 500;
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

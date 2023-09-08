@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+header .container {
+  max-width: 1188px;
+  margin: 0 auto;
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .header-left {
+  display: flex;
+  align-items: center;
+}
+header .container .header-left #header-title {
+  width: 130px;
+  margin-left: 10px;
+  color: #00327F;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+}
+header .container .header-right {
+  max-width: 620px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+header .container .header-right .header-right-child {
+  display: flex;
+  align-items: center;
+}
+header .container .header-right .header-right-child .header-right-child-text {
+  margin-left: 15px;
+}
+header .container .header-right .header-right-child .header-right-child-text .header-right-child-text-blue {
+  color: #00327F;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+}
+header .container .header-right .header-right-child .header-right-child-text .header-right-child-text-black {
+  color: #666;
+  font-family: Montserrat;
+  font-size: 9px;
+  font-weight: 400;
+}
+
+.search-result {
+  margin: 0 auto;
+  margin: 65px 0 25px 0;
+}
+.search-result a {
+  color: #00327F;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+}
+.search-result span {
+  color: #00327F;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.main .container .gallery h1 {
+  color: #00327F;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+}
+.main .container .gallery h2 {
+  color: #00327F;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.main .container .gallery .gallery-pictures {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 44px;
+}
+.main .container .gallery .gallery-pictures .gallery-pictures-block-one img {
+  border-radius: 10px 0 0 10px;
+}
+
+.first-block .info {
+  height: 300px;
+}
+.first-block .info h3 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+}
+.first-block .info p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.container .two-block .second-block .booking-area {
+  width: 358px;
+  height: 325px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  padding-top: 36px;
+}
+.container .two-block .second-block .booking-area .container {
+  width: 330px;
+}
+.container .two-block .second-block .booking-area .container .booking-area-price-one {
+  width: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 30px;
+}
+.container .two-block .second-block .booking-area .container .booking-area-price-one span {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+}
+.container .two-block .second-block .booking-area .container .booking-area-inputs {
+  width: 330px;
+  height: 93px;
+  border-radius: 10px;
+  border: 1px solid #D9D9D9;
+  margin-bottom: 30px;
+}
+.container .two-block .second-block .booking-area .container .booking-area-inputs input {
+  border: none;
+  width: 157px;
+  height: 46px;
+  border-right: 1px solid #d9d9d9;
+}
+.container .two-block .second-block .booking-area .container .booking-area-inputs .input {
+  display: flex;
+  align-items: center;
+  padding-right: 18px;
+  border-top: 1px solid #d9d9d9;
+}
+.container .two-block .second-block .booking-area .container .booking-area-inputs .input input {
+  width: 310px;
+  height: 40px;
+  border-right: none;
+}
+.container .two-block .second-block .booking-area .container .booking-area-btn button {
+  display: flex;
+  width: 329px;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #00327F;
+  color: #FFF;
+  font-family: Montserrat;
+}
+.container .two-block .second-block .booking-area .container .booking-area-price-two {
+  display: flex;
+  gap: 137px;
+  margin-top: 30px;
+}
+.container .two-block .second-block .booking-area .container .booking-area-price-two span {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.map {
+  margin-top: 45px;
+}
+.map h3 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.map .map-card {
+  width: 378px;
+  height: 340px;
+  background: #D9D9D9;
+}
+
+.cards {
+  margin-bottom: 140px;
+}
+.cards .card {
+  width: 750px;
+  height: 380px;
+  border: 2px solid #d9d9d9;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.cards .card .card-block-one {
+  display: flex;
+  gap: 43px;
+  margin: 10px 0 0 10px;
+}
+.cards .card .card-block-one .card-block-one-info .card-block-one-info-text h3 {
+  color: #00327F;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+}
+.cards .card .card-block-one .card-block-one-info .card-block-one-info-text p {
+  width: 355px;
+  color: #1E1E1E;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+}
+.cards .card .card-block-one .card-block-one-info .card-block-one-info-facilities {
+  display: flex;
+  gap: 30px;
+}
+.cards .card .card-block-one .card-block-one-info .card-block-one-info-facilities .info-facilities-block-one,
+.cards .card .card-block-one .card-block-one-info .card-block-one-info-facilities .info-facilities-block-two {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.cards .card .card-block-one .card-block-one-info .card-block-one-info-facilities .info-facilities-block-one .facility,
+.cards .card .card-block-one .card-block-one-info .card-block-one-info-facilities .info-facilities-block-two .facility {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.cards .card .card-block-one .card-block-one-info .card-block-one-info-facilities .info-facilities-block-one .facility span,
+.cards .card .card-block-one .card-block-one-info .card-block-one-info-facilities .info-facilities-block-two .facility span {
+  color: #1E1E1E;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+}
+.cards .card .card-block-one .card-block-one-info .card-block-one-info-facilities .info-facilities-block-one .one-f,
+.cards .card .card-block-one .card-block-one-info .card-block-one-info-facilities .info-facilities-block-two .one-f {
+  gap: 30px;
+}
+.cards .card .card-block-one .card-block-one-info .card-block-one-info-facilities .info-facilities-block-one .two-f,
+.cards .card .card-block-one .card-block-one-info .card-block-one-info-facilities .info-facilities-block-two .two-f {
+  gap: 35px;
+}
+.cards .card .card-block-two {
+  margin: 32px 45px 0 41px;
+  display: flex;
+  align-items: center;
+}
+.cards .card .card-block-two .card-block-two-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 160px;
+}
+.cards .card .card-block-two .card-block-two-info .facility {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cards .card .card-block-two .card-block-two-info .facility span {
+  color: #1E1E1E;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+}
+.cards .card .card-block-two .card-block-two-info .f-one {
+  gap: 14px;
+}
+.cards .card .card-block-two .card-block-two-price {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.cards .card .card-block-two .card-block-two-price .big-price {
+  color: #00327F;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+}
+.cards .card .card-block-two .card-block-two-price .one-day {
+  color: #1E1E1E;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+}
+.cards .card .card-block-two .card-block-two-btn button {
+  background-color: #00327F;
+  width: 157px;
+  height: 47px;
+  color: #fff;
+  border-radius: 10px;
+  font-family: Montserrat;
+}
+
+.footer {
+  width: 1920px;
+  height: 506px;
+  background: #00327F;
+  padding-top: 66px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .footer-top {
+  width: 990px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-top div ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.footer .footer-top div ul li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px; /* 121.429% */
+  letter-spacing: 0.28px;
+}
+.footer .footer-top div ul li .list-footer-item-link-bold {
+  font-weight: 700;
+  font-size: 16px;
+}
+.footer .footer-down {
+  display: flex;
+  align-items: center;
+  margin-top: 109px;
+}
+.footer .footer-down h2 {
+  width: 130px;
+  margin-left: 10px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 11.25px;
+  font-weight: 500;
+}
+
+body, html {
+  height: 100%;
+}
+body .wrapper, html .wrapper {
+  min-height: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+body .wrapper .main, html .wrapper .main {
+  flex: 1 1 auto;
+  padding-left: 15px;
+}
+body .wrapper .main .container, html .wrapper .main .container {
+  max-width: 1194px;
+  margin: 0 auto;
+}
+body .wrapper .main .container .two-block, html .wrapper .main .container .two-block {
+  display: flex;
+  gap: 80px;
+}
+body .wrapper .main .container .two-block .first-block, html .wrapper .main .container .two-block .first-block {
+  width: 750px;
+}/*# sourceMappingURL=page-3.css.map */

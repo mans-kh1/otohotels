@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import "cards";
+@import "footer";
+@import "header";
+@import "help";
+@import "main";
+@import "search-result";
+@import "media";
+body, html{
+    height: 100%;
+}
+.wrapper{
+    min-height: 100%;
+    width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.main{
+    flex: 1 1 auto;
+}

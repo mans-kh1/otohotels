@@ -1,0 +1,56 @@
+.help{
+    max-width: 1194px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    .help-one{
+        width: 378px;
+        height: 60px;
+        background-color: #ececec;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        span{
+            color: #000;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 500;
+            z-index: 6;
+        }
+        hr{
+            width: 1194px;
+            height: 2px;
+            background-color: #ececec;
+            border: none;
+            position: absolute;
+            right: -400px;
+        }
+    }
+    .help-phone{
+        color: #00327F;
+        font-family: Montserrat;
+        font-size: 30.129px;
+        font-weight: 600;
+        margin-top: 42px;
+
+    }
+    .help-two{
+        margin-top: 15px;
+        color: #666;
+        font-family: Montserrat;
+        font-size: 18.077px;
+        font-weight: 400;
+    }
+    .help-hr{
+            width: 1194px;
+            height: 2px;
+            background-color: #ececec;
+            border: none;
+            margin-top: 30px;
+            margin-bottom: 100px;
+    }
+}
