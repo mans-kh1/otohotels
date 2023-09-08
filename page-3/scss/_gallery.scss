@@ -1,0 +1,33 @@
+.main{
+    .container{
+        .gallery{
+            h1{
+                color: #00327F;
+                font-family: Montserrat;
+                font-size: 24px;
+                font-weight: 700;
+            }
+            h2{
+                color: #00327F;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 500;
+                margin-bottom: 30px;
+            }
+            .gallery-pictures{
+                display: flex;
+                align-items: center;
+                gap: 3px;
+                margin-bottom: 44px;
+                
+                .gallery-pictures-block-one{
+                    img{
+                        border-radius: 10px 0 0 10px;
+                    }
+                    
+                }
+            }
+        }
+        
+    }
+}

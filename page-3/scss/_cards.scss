@@ -1,0 +1,112 @@
+.cards{
+    margin-bottom: 140px;
+    .card{
+        width: 750px;
+        height: 380px;
+        border: 2px solid #d9d9d9;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        .card-block-one{
+            display: flex;
+            gap: 43px;
+            margin: 10px 0 0 10px;
+            .card-block-one-info{
+                .card-block-one-info-text{
+                    h3{
+                        color: #00327F;
+                        font-family: Montserrat;
+                        font-size: 18px;
+                        font-weight: 700;
+                    }
+                    p{
+                        width: 355px;
+                        color: #1E1E1E;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+                .card-block-one-info-facilities{
+                    display: flex;
+                    gap: 30px;
+
+                    .info-facilities-block-one,
+                    .info-facilities-block-two{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 17px;
+                        .facility{
+                            display: flex;
+                            align-items: center;
+                            gap: 24px;
+                            span{
+                                color: #1E1E1E;
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 500;
+                            }
+                        }
+                        .one-f{
+                            gap: 30px;
+                        }
+                        .two-f{
+                            gap: 35px;
+                        }
+                    }
+                }
+            }
+        }
+        .card-block-two{
+            margin: 32px 45px 0 41px;
+            display: flex;
+            align-items: center;
+            .card-block-two-info{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-right: 160px;
+                .facility{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    span{
+                        color: #1E1E1E;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+                .f-one{
+                    gap: 14px;
+                }
+            }
+            .card-block-two-price{
+                display: flex;
+                flex-direction: column;
+                margin-right: 32px;
+                .big-price{
+                    color: #00327F;
+                    font-family: Montserrat;
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+                .one-day{
+                    color: #1E1E1E;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+            .card-block-two-btn{
+                button{
+                    background-color: #00327F;
+                    width: 157px;
+                    height: 47px;
+                    color: #fff;
+                    border-radius: 10px;
+                    font-family: Montserrat;
+                }
+            }
+        }
+    }
+}

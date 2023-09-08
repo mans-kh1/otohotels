@@ -1,0 +1,52 @@
+header{
+    .container{
+        max-width: 1188px;
+        margin: 0 auto;
+        margin-top: 44px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header-left{
+            display: flex;
+            align-items: center;
+            #header-title{
+                width: 130px;
+                margin-left: 10px;
+                color: #00327F;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+        .header-right{
+            max-width: 620px;
+            display: flex;
+            gap: 30px;
+            align-items: center;
+
+            .header-right-child{
+                display: flex;
+                align-items: center;
+
+                .header-right-child-text{
+                    margin-left: 15px;
+
+                    .header-right-child-text-blue{
+                        color: #00327F;
+                        font-family: Montserrat;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                    .header-right-child-text-black{
+                        color: #666;
+                        font-family: Montserrat;
+                        font-size: 9px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
+
